@@ -1,0 +1,109 @@
+body {
+    background-color:                  rgb(239, 239, 239);
+    border:                             0;    
+}
+@font-face {
+    font-family:                        "San Francisco";
+    src:                                url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+* {
+    font-family:                        "San Francisco", Helvetica, Arial, sans-serif;
+    margin:                             0;
+    padding:                            0;
+}
+:root {
+    --mpg-red:                         rgb(147, 44, 40);
+    --mpg-yellow:                      rgb(249, 208, 6);
+    --mpg-blue:                        rgb(12, 84, 149);
+    --mpg-gray:                        rgb(239, 239, 239);
+    --mpg-mediumgray:                  rgb(188, 190, 192);
+    --mpg-darkgray:                    rgb(129, 129, 129);  
+}
+.pane {
+    height:                             500px;
+    border:                             0;
+    margin:                             0;
+    padding:                            0;
+}
+.ribbon {
+    height:                             66px;
+    border:                             0;
+    margin:                             0;
+    padding:                            0;
+}
+.header {
+    font-size:                          calc(1.2vw + 1.2vh);
+    line-height:                        65px;
+    white-space:                        nowrap;
+    color:                              var(--mpg-gray);
+}
+.footer {
+}
+#main {
+    position:                           relative;
+    background-color:                   var(--mpg-red);
+    background-image:                   url(logo.png), 
+                                        url(dela.png);
+    background-repeat:                  no-repeat,
+                                        no-repeat;
+    background-attachment:              scroll,
+                                        scroll;
+    background-position-x:              center,
+                                        0px;
+    background-position-y:              center,
+                                        0px;
+    background-size:                    40%,
+                                        auto;
+}
+#tag {
+    position:                           absolute;
+    background-image:                   url(dela.png);
+    background-repeat:                  no-repeat;
+    background-attachment:              scroll;
+    background-position-y:              -434px;
+    background-position-x:              0;
+    background-size:                    auto;
+    bottom:                             0;
+    background-color:                   var(--mpg-blue);
+    height:                             66px;
+    width:                              100%;
+    text-align:                         center;
+}
+#middle {
+    position:                           relative;
+    padding:                            30px 0px 30px 0px;
+    background-color:                   var(--mpg-gray);
+    background-image:                   url(dela.png), 
+                                        url(map.png);
+    background-repeat:                  no-repeat,
+                                        no-repeat;
+    background-attachment:              scroll,
+                                        scroll;
+    background-position-x:              0px,
+                                        center;
+    background-position-y:              -500px,
+                                        center;
+    background-size:                    auto,
+                                        auto;
+}
+#bottom {
+    position:                           relative;
+    background-color:                   var(--mpg-mediumgray);
+}
+.bounce {
+    -webkit-animation:                  slideInTop 1.5s 1;
+    -moz-animation:                     slideInTop 1.5s 1;
+}
+@-webkit-keyframes slideInTop {
+    0% { opacity:0; -webkit-transform:translateY(-30px); }
+    25% { opacity:0; -webkit-transform:translateY(-30px); }
+    90% { opacity:1; -moz-transform:translateY(10px); }
+    100% { opacity:1; -moz-transform:translateY(0px); }
+}
+@-moz-keyframes slideInTop {
+    0% { opacity:0; -moz-transform:translateY(-30px); }
+    25% { opacity:0; -moz-transform:translateY(-30px); }
+    90% { opacity:1; -moz-transform:translateY(10px); }
+    100% { opacity:1; -moz-transform:translateY(0px); }
+}
+
