@@ -183,10 +183,6 @@ blockquote.black-text {
     background-image:                 none;
   }
 }
-@font-face {
- font-family:                        "San Francisco";
- src:                                url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
 * {
  font-family:                        -apple-system, 
                                      system-ui,
@@ -202,8 +198,6 @@ blockquote.black-text {
                                      Droid Sans,
                                      Lucida Grande,
                                      Helvetica,
-                                     "San Francicso",
-                                     sans-serif,
                                      Apple Color Emoji,
                                      Segoe UI Emoji,
                                      Segoe UI Emoji,
@@ -222,7 +216,7 @@ blockquote.black-text {
                                      Droid Sans Fallback,
                                      Heiti SC,
                                      Microsoft Yahei, 
-                                     "San Francicso";
+                                     sans-serif;
  margin:                             0;
  padding:                            0;
 }
