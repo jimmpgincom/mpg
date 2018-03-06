@@ -66,6 +66,12 @@ blockquote.black-text {
   .reveal blockquote .hashtags {
     font-size:                        15px;
   }
+  .reveal .card .card-title {
+    font-size:                        16px;
+  }
+  .reveal .card .card-text {
+    font-size:                        15px;
+  }
 }
 /* 30" CINEMA DISPLAY PORTRAIT */
 @media only screen and (max-width: 1600px) and (orientation: portrait) {
@@ -74,6 +80,12 @@ blockquote.black-text {
     width:                            50%;
   }
   .reveal blockquote .hashtags {
+    font-size:                        15px;
+  }
+  .reveal .card .card-title {
+    font-size:                        16px;
+  }
+  .reveal .card .card-text {
     font-size:                        15px;
   }
 }
@@ -86,6 +98,12 @@ blockquote.black-text {
   .reveal blockquote .hashtags {
     font-size:                        19px;
   }
+  .reveal .card .card-title {
+    font-size:                        20px;
+  }
+  .reveal .card .card-text {
+    font-size:                        19px;
+  }
 }
 /* WIDESCREEN PORTRAIT */
 @media only screen and (max-width: 800px) and (orientation: portrait) {
@@ -94,6 +112,12 @@ blockquote.black-text {
     width:                            80%;
   }
   .reveal blockquote .hashtags {
+    font-size:                        26px;
+  }
+  .reveal .card .card-title {
+    font-size:                        27px;
+  }
+  .reveal .card .card-text {
     font-size:                        26px;
   }
 }
@@ -107,6 +131,12 @@ blockquote.black-text {
   .reveal blockquote .hashtags {
     font-size:                        20px;
   }
+  .reveal .card .card-title {
+    font-size:                        21px;
+  }
+  .reveal .card .card-text {
+    font-size:                        20px;
+  }
 }
 /* 17" DISPLAY PORTRAIT */
 /* TABLET PORTRAIT */
@@ -116,6 +146,12 @@ blockquote.black-text {
     width:                            78%;
   }
   .reveal blockquote .hashtags {
+    font-size:                        27px;
+  }
+  .reveal .card .card-title {
+    font-size:                        28px;
+  }
+  .reveal .card .card-text {
     font-size:                        27px;
   }
 }
@@ -128,6 +164,12 @@ blockquote.black-text {
   .reveal blockquote .hashtags {
     font-size:                        26px;
   }
+  .reveal .card .card-title {
+    font-size:                        27px;
+  }
+  .reveal .card .card-text {
+    font-size:                        26px;
+  }
 }
 /* SMALL TABLET PORTRAIT */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
@@ -138,6 +180,12 @@ blockquote.black-text {
   .reveal blockquote .hashtags {
     font-size:                        34px;
   }
+  .reveal .card .card-title {
+    font-size:                        35px;
+  }
+  .reveal .card .card-text {
+    font-size:                        34px;
+  }
 }
 /* iPHONE 5 LANDSCAPE */
 @media only screen and (max-width: 568px) and (orientation: landscape) {
@@ -146,6 +194,12 @@ blockquote.black-text {
     width:                            95%
   }
   .reveal blockquote .hashtags {
+    font-size:                        43px;
+  }
+  .reveal .card .card-title {
+    font-size:                        44px;
+  }
+  .reveal .card .card-text {
     font-size:                        43px;
   }
 }
@@ -159,6 +213,12 @@ blockquote.black-text {
   .reveal blockquote .hashtags {
     font-size:                        58px;
   }
+  .reveal .card .card-title {
+    font-size:                        59px;
+  }
+  .reveal .card .card-text {
+    font-size:                        58px;
+  }
 }
 /* MOBILE LANDSCAPE */
 @media only screen and (max-width: 480px) and (orientation: landscape) {
@@ -169,6 +229,12 @@ blockquote.black-text {
   .reveal blockquote .hashtags {
     font-size:                        44px;
   }
+  .reveal .card .card-title {
+    font-size:                        45px;
+  }
+  .reveal .card .card-text {
+    font-size:                        44px;
+  }
 }
 /* CELL N/A */
 @media only screen and (max-width: 240px) {
@@ -177,6 +243,12 @@ blockquote.black-text {
     width:                            80%;
   }
   .reveal blockquote .hashtags {
+    font-size:                        55px;
+  }
+  .reveal .card .card-title {
+    font-size:                        56px;
+  }
+  .reveal .card .card-text {
     font-size:                        55px;
   }
   footer#title-footer {
@@ -294,6 +366,27 @@ body {
 .reveal h1 {
   text-shadow: none; }
 
+/*********************************************
+ * BOOTSTRAP
+ *********************************************/
+ .reveal .card {
+   background-color:                transparent;
+ }
+ .reveal .card-img-top img {
+   vertical-align:                   middle;
+ }
+ .reveal .card-body {
+   margin:                           0 auto;
+   background-color:               rgba(0, 0, 0, 0.1);
+   padding:                          10px;
+   max-width:                        225px;
+}
+.reveal .card .card-title {
+   font-weight:                      500;
+}
+.reveal .card .card-text {
+   font-weight:                      400;
+}
 /*********************************************
  * OTHER
  *********************************************/
